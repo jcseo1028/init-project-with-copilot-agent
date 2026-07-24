@@ -627,3 +627,25 @@ Copilot에서도 같은 방식으로 적용
 1) Copilot Chat 시작 시 AGENTS.md + .agents/handoff.md + .agents/active-task.md를 먼저 읽도록 지시한다.
 2) 세션 종료 시 finalize 프롬프트와 동일한 체크리스트를 적용한다.
 3) 핵심은 프롬프트 자체보다 handoff/active-task 최신화이다.
+
+## First Principle 문제 분석하기
+
+```markdown
+Analyze this problem from first principles.
+Do NOT assume existing architectures are optimal.
+
+Instead:
+1. Define the actual engineering problem.
+2. Identify all constraints.
+3. Separate physical constraints from business constraints.
+4. Separate hardware limits from software limits.
+5. Identify assumptions that can be removed.
+6. Design three completely different architectures.
+7. Evaluate trade-offs.
+8. Recommend the best architecture.
+9. Explain why it is fundamentally better.
+10. Point out what experienced engineers often overlook.
+
+Problem : DJ MAX 와 같은 리듬 프로그램을 Local Web 기반으로 만들고 싶어
+```
+
